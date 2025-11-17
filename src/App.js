@@ -227,11 +227,11 @@ export default function CareerPathApp() {
 
 function LogoIcon() {
   return (
-    <svg className="brand-logo" width="56" height="32" viewBox="0 0 56 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="2" y="13" width="18" height="6" rx="3" fill="#33B5FF" />
-      <rect x="8" y="7" width="6" height="18" rx="3" fill="#33B5FF" />
-      <rect x="32" y="9" width="6" height="19" rx="3" fill="#33B5FF" />
-      <rect x="24" y="9" width="14" height="6" rx="3" fill="#33B5FF" />
+    <svg className="brand-logo" width="60" height="34" viewBox="0 0 60 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="2" y="13" width="20" height="6" rx="3" fill="#33B5FF" />
+      <rect x="9" y="6" width="6" height="20" rx="3" fill="#33B5FF" />
+      <path d="M34 6H40V16H50V22H34V6Z" fill="#33B5FF" />
+      <rect x="40" y="12" width="6" height="16" rx="3" transform="rotate(-90 40 12)" fill="#33B5FF" />
       <path d="M38 2H52V16H46V9H38V2Z" fill="#33B5FF" />
     </svg>
   );
